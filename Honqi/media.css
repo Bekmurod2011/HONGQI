@@ -1,0 +1,175 @@
+@media (max-width: 995px) {
+    .main-header {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
+    .main-header__items {
+        display: none !important;
+    }
+    .main-header .main-header__btn {
+        display: flex;
+        align-items: center;
+    }
+    .main-header .main-header__btn i {
+        display: block;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .main-header .content {
+        background: #000;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .page-one {
+        width: 100% !important;
+    }
+    .page-one .text h2 {
+        font-size: calc(1.375rem + 1.5vw);
+        font-weight: 500 !important;
+    }
+    .page-one .text .pharagraph  {
+        font-size: 16px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+    .page-one .text .pharagraph b {
+        font-weight: 500;
+        margin-right: 5px;
+    }
+    .page-one .text-2 h1 {
+        font-size: 30px !important;
+    }
+    .page-one .text-img {
+        width: 100% !important;
+    }
+    .page-one .text-img img {
+        width: 100%;
+    }
+    .page-one .three-img {
+        width: 100% !important;
+        display: block;
+        padding: 20px 100px !important;
+    }
+    .page-one .three-img .div {
+        display: flex;
+        width: 100%;
+    }
+    .page-one .three-img .div img {
+        width: 50%;
+    }
+    .page-one .three-img img {
+        width: 50%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .page-one .text-3 {
+        padding: 20px 100px;
+    }
+    .page-one .text-img {
+        width: 100% !important;
+        padding: 10px 140px !important;
+    }
+    .page-one .text-img img {
+        width: 100% !important;
+    }
+    .page-one .text-img h1 {
+        font-size: 30px !important;
+    }
+    .page-one .two {
+        width: 100% !important;
+        padding: 20px 0 !important;
+    }
+    .page-one .two img {
+        width: 100% !important;
+        height: 500px !important;
+    }
+    .page-one .fashionable {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+    .page-one .fashionable .review-btn {
+        display: none;
+    }
+    .page-one .fashionable .review-btn .btn-div {
+        display: none;
+    }
+    .page-one .fashionable select {
+        display: block;
+        width: 70% !important;
+        padding: 10px 10px !important;
+        border-radius: 20px;
+        transition: all .3s;
+    }
+    .page-one .fashionable select:focus {
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    }
+    .page-one .text-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .page-one .text-4 h1 {
+        font-size: 30px !important;
+    }
+    .page-one .page-one .fashionable .and {
+        width: 100% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        padding: 0 !important;
+    }
+    .page-one .page-one .fashionable .cards .card-1 {
+        display: block !important;
+        width: 100% !important;
+    }
+    .page-one .page-one .fashionable .cards .card-1 img {
+        width: 100% !important;
+    }
+    .page-one .page-one .fashionable .cards .c {
+        width: 100% !important;
+    }
+    .page-one .page-one .fashionable .cards .c img {
+        width: 140% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-one .three-img {
+        padding: 20px 0 !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .page-one .three-img img {
+        width: 100% !important;
+        margin-top: 10px;
+    }
+    .page-one .three-img img {
+        margin-left: 2px !important;
+        margin-right: 2px !important;
+    }
+    .page-one .text-3 {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+    .page-one .b {
+        padding: 10px !important;
+    }
+    .page-one .b img{
+        width: 100% !important;
+    }
+    .page-one .cards {
+        padding: 10px !important;
+        width: 100% !important;
+    }
+    .page-one .cards .card-1 {
+        width: 70% !important;
+    }
+    .page-one .cards .card-1 img {
+        width: 100%;
+        height: 300px !important;
+    }
+}
